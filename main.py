@@ -10,8 +10,8 @@ def converter_rgb_para_cmyk(caminho_imagem_entrada, caminho_imagem_saida):
     except Exception as e:
         print(f"Ocorreu um erro durante a conversão: {e}")
 
-if __name__ == '__main__':
-    caminho_entrada = r'/home/pedro/Documents/opob/rgbtocmyk/aurora.jpg'
-    caminho_saida = r'/home/pedro/Documents/opob/rgbtocmyk/auroracmyk.jpg'
-    
-    converter_rgb_para_cmyk(caminho_entrada, caminho_saida)
+
+caminho_entrada = r'/home/pedro/Documents/opob/rgbtocmyk/aurora.jpg'
+caminho_saida = r'/home/pedro/Documents/opob/rgbtocmyk/auroracmyk.jpg'
+
+converter_rgb_para_cmyk(caminho_entrada, caminho_saida)
